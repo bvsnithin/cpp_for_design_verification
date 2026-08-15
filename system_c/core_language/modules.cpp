@@ -172,7 +172,7 @@ int sc_main(int argc, char* argv[]){
 }
 
 
-// Quick primer on object creating in SystemC
+// Quick primer on object creation in SystemC
 //   C++ pointer variable name
 //   |   
 //   v          Creates on Heap
@@ -210,7 +210,8 @@ Syntax: and_test tb("tb);
 /*
 1. STACK OBJECT VARIABLE (No '*' in declaration or no "new" keyword)
 - 'tb_obj' stores the ENTIRE object directly on the stack
-and_test tb_obj("tb"); 
+
+Syntax: and_test tb_obj("tb"); 
 
 Accessing Signals
 - tb_obj.a.write(1);
@@ -219,7 +220,8 @@ Accessing Signals
 
 2. HEAP POINTER VARIABLE (Requires '*' and the new keyword)
 - 'tb_ptr' is a pointer variable storing an ADDRESS to an object on the heap
-and_test *tb_ptr = new and_test("tb");
+
+Syntax: and_test *tb_ptr = new and_test("tb");
 
 Access signals using '->'
 tb_ptr->a.write(1);          

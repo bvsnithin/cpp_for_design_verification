@@ -5,3 +5,5 @@ xrun.*
 .simvision
 waves.shm
 xmsc.*
+.bpad
+*.err

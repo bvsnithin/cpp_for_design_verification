@@ -32,4 +32,6 @@ It sits in the kernel's runnable queue until the Evaluation phase, where the ker
 | No. | File | Lesson |
 |---:|---|---|
 | 1 | `01_deferred_signal_update.cpp` | `write()` is not immediately visible |
+| 2 | `02_signal_wakes_process.cpp` | A committed change wakes sensitive logic |
+| 3 | `03_combinational_chain.cpp` | Signal chains propagate over several deltas |
 

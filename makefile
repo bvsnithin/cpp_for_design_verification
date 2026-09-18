@@ -1,4 +1,4 @@
-CLEAN_TARGETS = xrun.log xrun.history xcelium.d waves.shm xrun.key .simvision xmsc.log
+CLEAN_TARGETS = xrun.log xrun.history xcelium.d waves.shm xrun.key .simvision xmsc.log .bpad *.err
 
 .PHONY: clean
 
